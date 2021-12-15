@@ -13,3 +13,9 @@ go install github.com/wayneashleyberry/envhunter@latest
 ```sh
 envhunter ./...
 ```
+
+### Supported
+
+- `os.Getenv`
+- `envconfig.Process`
+- `envconfig.MustProcess`
