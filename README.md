@@ -14,8 +14,8 @@ go install github.com/wayneashleyberry/envhunter@latest
 envhunter ./...
 ```
 
-### Supported
+### Supported Functions
 
-- `os.Getenv`
-- `envconfig.Process`
-- `envconfig.MustProcess`
+- [`os.Getenv`](https://pkg.go.dev/os#Getenv)
+- [`envconfig.Process`](https://pkg.go.dev/github.com/kelseyhightower/envconfig#Process)
+- [`envconfig.MustProcess`](https://pkg.go.dev/github.com/kelseyhightower/envconfig#MustProcess)
