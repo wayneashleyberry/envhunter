@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"go/ast"
 	"reflect"
-	"strings"
-
 	"strconv"
+	"strings"
 
 	"github.com/wayneashleyberry/envhunter/pkg/config"
 	"golang.org/x/tools/go/analysis"

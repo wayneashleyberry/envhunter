@@ -9,5 +9,4 @@ func main() {
 	multichecker.Main(
 		envhunter.Analyzer(),
 	)
-
 }
